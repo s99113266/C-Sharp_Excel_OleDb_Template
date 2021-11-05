@@ -13,5 +13,6 @@ namespace Excel_OleDb_Template.DbFuntions
             return Context.Server.MapPath(e);
         }
         public static string ExcelConnStr1 = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={ServerMapPath("~/App_Data/test1.xlsx")};Extended Properties='Excel 12.0;HDR=Yes;IMEX=2;'";
+        public static string AccdbConnStr1 = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={ServerMapPath("~/App_Data/test2.accdb")};";
     }
 }
