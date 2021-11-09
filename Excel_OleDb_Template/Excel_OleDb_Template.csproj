@@ -15,7 +15,7 @@
     <RootNamespace>Excel_OleDb_Template</RootNamespace>
     <AssemblyName>Excel_OleDb_Template</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort>44352</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
@@ -153,6 +153,7 @@
   <ItemGroup>
     <Content Include="App_Img\favicon\site.webmanifest" />
     <Content Include="App_Data\test1.xlsx" />
+    <Content Include="App_Data\h.xlsx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -176,7 +177,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>63414</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44352/</IISUrl>
+          <IISUrl>http://localhost/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
